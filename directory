@@ -1,0 +1,25 @@
+ecommerce_app/
+├── __init__.py
+├── main.py
+├── data/ (will be created by the program)
+├── models/
+│   ├── __init__.py
+│   ├── user.py
+│   ├── product.py
+│   └── cart.py
+├── utils/
+│   ├── __init__.py
+│   ├── validators.py
+│   ├── helpers.py
+│   └── auth.py
+├── services/
+│   ├── __init__.py
+│   ├── user_service.py
+│   ├── product_service.py
+│   └── cart_service.py
+└── views/
+    ├── __init__.py
+    ├── auth_view.py
+    ├── dashboard_view.py
+    ├── purchase_view.py
+    └── account_view.py
